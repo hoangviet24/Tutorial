@@ -3,6 +3,7 @@ from random import randint
 print("CÂY ATM CHẠY BẰNG CƠM")
 print("Lưu ý chỉ rút số chẵn như 50, 100, lớn hơn 10 và bé hơn 1000")
 
+#Mật khẩu
 def password():
     password = randint(100000,999999)
     print(password)
@@ -30,6 +31,8 @@ def money():
         else:
             print("Đây là số tiền bạn rút",money)
             break
+
+#Lập lại để xem người dùng có muốn rút tiền nữa không
 def again():
     print("Bạn có muốn rút nữa không")
     print("Y hoặc N")
